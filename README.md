@@ -51,3 +51,6 @@ Facilitar el mantenimiento y la actualización del sistema.
 12. Pruebas y Depuración:
 Implementar pruebas unitarias y de integración para garantizar la calidad del código.
 Resolver y corregir errores de manera proactiva.
+
+![image](https://github.com/Borghii/University-Management-System/assets/137845283/e77e8d2e-3d1b-4004-b84c-666815349933)
+

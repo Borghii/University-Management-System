@@ -8,8 +8,15 @@ import javafx.scene.control.TextField;
 
 public class HelloController {
 
+    @FXML
+    TextField fieldName;
+    @FXML
+    TextField fieldPassword;
 
-
+    @FXML
+    public void onSignIn(){
+        System.out.println(fieldName.getText());
+    }
 
 
 }

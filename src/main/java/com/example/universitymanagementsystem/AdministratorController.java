@@ -1,19 +1,25 @@
 package com.example.universitymanagementsystem;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+
+import java.util.HashMap;
 
 public class AdministratorController {
 
-    @FXML
-    TextField fieldName;
-    @FXML
-    TextField fieldPassword;
+    MenuController mc = new MenuController();
 
     @FXML
-    public void onSignIn(){
-        System.out.println(fieldName.getText());
+    Button buttonBack;
+
+    @FXML
+    public void onBack(){
+        mc.closeCurrentStage(buttonBack);
+        mc.openNewStage("viewLogin.fxml");
     }
+
 
 
 }

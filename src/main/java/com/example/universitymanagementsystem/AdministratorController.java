@@ -13,11 +13,23 @@ public class AdministratorController {
 
     @FXML
     Button buttonBack;
+    @FXML
+    Button addStudent;
+    @FXML
+    Button addProfessor;
+    @FXML
+    Button addCourse;
+
 
     @FXML
-    public void onBack(){
+    private void onBack(){
         mc.closeCurrentStage(buttonBack);
         mc.openNewStage("viewLogin.fxml");
+    }
+
+    @FXML
+    public void addStudent(){
+
     }
 
 
